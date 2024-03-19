@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Login and Inventory System</title>
+	
+</head>
+<body background="img\chromebg.jpg">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="item-table">
+					<h2>Inventory System</h2>
+					<form action="#" id="inputForm">
+						<p id="usersList"></p>
+						<p>Item: <input class="tbox" type="text" id="item"></p>
+						<p>Quantity: <input class="tbox" type="number" id="quantity"></p>
+						<input  class="btn" type="submit" value="Submit" id="submitButton">
+					</form>
+					<div class="setVisibility">
+						<p>View table (Check the box)<input type="checkbox" id="checkbox" style="margin:auto;"></p>
+					</div>
+					<div class="tablesSection" style="margin-top: 10px; display: none;">
+						<table>
+							<tr>
+								<th>Item</th>
+								<th>Quantity</th>
+							</tr>
+						</table>
+					</div>
+					<form id="editForm" style="display: none;">
+						<input type="text" id="newText"/>
+						<input type="submit">
+					</form>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="login-section">
+					<h2 id="title">Login and registration system</h2>
+					<div class="regForm" style="margin-top: 25px">
+						<h2>Register here!</h2>
+						<form action="#" id="registrationForm">
+							<p>Username: <input class="tbox" type="text" id="usernameReg"></p>
+							<p>Password: <input class="tbox" type="password" id="passwordReg"></p>
+							<input class="btn" type="submit" name="" value="Register">
+						</form>	
+					</div>
+					<div class="logForm" style="margin-top: 25px; display: none;">
+						<h2>Login here! Time to login now!</h2>
+						<form action="#" id="loginForm">
+							<p>Username: <input class="tbox" type="text" id="username"></p>
+							<p>Password: <input class="tbox" type="password" id="password"></p>
+							<input type="submit" value="Login">
+						</form>
+					</div>
+					<div class="welcomePanel">
+						<h2 id="greeting"></h2>
+					</div>		
+			</div>
+		</div>
+	</div>
+	
+	<script src="app.js"></script>
+</body>
+
+</html>

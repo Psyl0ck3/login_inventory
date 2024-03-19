@@ -1,0 +1,64 @@
+
+body {
+    color: #FFB5DA;
+    font-size: 150%;
+
+
+}
+table, th, td {
+    width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h2 {
+    color: #FFB5DA;
+}
+
+.item-table {
+    margin-top: 300px;
+    padding: 10px;
+    backdrop-filter: blur(16px) saturate(99%);
+    -webkit-backdrop-filter: blur(16px) saturate(99%);
+    background-color: rgba(100, 32, 170, 0.48);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.login-section {
+    margin-top: 300px;
+    padding: 10px;
+    backdrop-filter: blur(16px) saturate(99%);
+    -webkit-backdrop-filter: blur(16px) saturate(99%);
+    background-color: rgba(100, 32, 170, 0.48);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.btn {
+    border-radius: 20px;
+    width: 130px;
+    font-size: 87%;
+    background-color: #FF3EA5;
+    color: #FFFDCB;
+}
+
+.tbox {
+    border-radius: 20px;
+    width: 190px;
+    height: 35px;
+    backdrop-filter: blur(10px) saturate(99%);
+    -webkit-backdrop-filter: blur(10px) saturate(99%);
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    
+
+}
+
+#checkbox {
+    outline: 3px solid #FF7ED4;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
